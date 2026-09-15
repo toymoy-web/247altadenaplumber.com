@@ -1,0 +1,3 @@
+# No redirect rules needed. Cloudflare Pages resolves clean/extensionless URLs
+# and slug/index.html routing natively. Do not add 200/301 rules here unless
+# there is a genuine cross-domain or legacy-path redirect need (Section 4).

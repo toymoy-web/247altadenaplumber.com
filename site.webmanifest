@@ -1,0 +1,11 @@
+{
+  "name": "Altadena 24/7 Plumbing",
+  "short_name": "Altadena 24/7 Plumbing",
+  "icons": [
+    { "src": "/images/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/images/icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ],
+  "theme_color": "#0D1B2A",
+  "background_color": "#ffffff",
+  "display": "browser"
+}
