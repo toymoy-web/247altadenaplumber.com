@@ -31,7 +31,10 @@
 <a class="logo" href="/"><img src="/images/logo.png" alt="Altadena 24/7 Plumbing logo" width="132" height="46"></a>
 <button class="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="site-nav-menu" onclick="document.getElementById('site-nav-menu').classList.toggle('nav-open');this.setAttribute('aria-expanded', this.getAttribute('aria-expanded')!=='true')">&#9776;</button>
 <div class="navlinks nav-menu" id="site-nav-menu">
-<a href="/water-heater-repair/">Water Heater Repair</a><a href="/leak-detection/">Leak Detection</a><a href="/drain-cleaning/">Drain Cleaning &amp; Unclogging</a><a href="/sewer-line-repair/">Sewer Line Repair</a><a href="/water-damage-restoration/">Water Damage Restoration</a><a href="/services/">All Services</a><a href="/blog/">Blog</a>
+<a href="/water-heater-repair/">Water Heater Repair</a><a href="/leak-detection/">Leak Detection</a><div class="nav-dropdown">
+<a href="/services/" class="nav-drop-toggle">More Services <span class="caret">&#9662;</span></a>
+<div class="nav-dropdown-menu"><a href="/drain-cleaning/">Drain Cleaning &amp; Unclogging</a><a href="/sewer-line-repair/">Sewer Line Repair</a><a href="/water-damage-restoration/">Water Damage Restoration</a><a href="/services/">All Services</a></div>
+</div><a href="/blog/">Blog</a>
 <a class="btn" style="font-size:14px;padding:11px 20px" href="tel:+16268986169">Call Now</a>
 </div>
 </div></nav>
@@ -143,11 +146,12 @@
 <div><h3>Call Us</h3>
 <a href="tel:+16268986169">(626) 898-6169</a>
 <p>Open 24 hours, every day</p>
+<a href="mailto:contact@247altadenaplumber.com">contact@247altadenaplumber.com</a>
 </div>
 </div>
 <div class="wrap legal">
 <p>Altadena 24/7 Plumbing. California-licensed plumbing contractors performing this work hold a CSLB C-36 classification, and installations follow Uniform Plumbing Code (UPC) requirements. Serving Altadena, CA 91001/91104/91107 and surrounding San Gabriel Valley communities. This site is a paid advertisement for licensed local plumbing contractors and does not constitute a guarantee of service availability or pricing.</p>
-<p style="margin-top:10px"><a href="/about/">About</a> &middot; <a href="/contact/">Contact</a> &middot; <a href="/privacy-policy/">Privacy Policy</a> &middot; <a href="/terms/">Terms of Service</a></p>
+<p style="margin-top:10px" class="footer-legal-links"><a href="/about/">About</a><a href="/contact/">Contact</a><a href="/privacy-policy/">Privacy Policy</a><a href="/terms/">Terms of Service</a></p>
 </div>
 </footer>
 
