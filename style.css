@@ -200,3 +200,5 @@ footer ul{list-style:none;margin:0;padding:0}
   .why,.localgrid2,.areas,footer .wrap{grid-template-columns:1fr}
   .navlinks a{margin-left:14px;font-size:13px}
 }
+
+.localcard img{display:block;width:calc(100% + 44px);max-width:none;margin:-22px -22px 16px;height:180px;object-fit:cover;border-radius:16px 16px 0 0}
